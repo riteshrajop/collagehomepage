@@ -51,14 +51,13 @@ select{
     color:black;
     background-color:rgb(67, 67, 67); ;
 }
-nav ::after{
-    content:'';
-    height:3px;
-    width:0;
-    background:black;
-    position:absolute;
-    left:0;
-    bottom:0;
+nav a:hover{
+   
+    font-size:2rem;
+    text-decoration:rgb(110, 107, 107) underline;
+}
+nav a:active{
+    color:blue;
 }
 
 /* image slider on home page */
@@ -71,14 +70,19 @@ nav ::after{
     padding-top: 0px;
     width: 70%;
     height:100vh;
-    
+   
+
     display:inline-block;
-    
 }
+
+
+
+/*notice page*/
 .homepagenotice{
     width:30%;
     height:100vh;
     text-align:center;
+    postion:relative;
     
     display:inline-block;
     flex-wrap:wrap;
