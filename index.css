@@ -4,7 +4,7 @@
     font-family:Aptos Display;
 }
 header{
-
+  
     
 }
 .logo{
@@ -69,7 +69,7 @@ nav a:active{
 .homepageslider{
     padding-top: 0px;
     width: 70%;
-    height:100vh;
+    height:70vh;
    
 
     display:inline-block;
@@ -121,11 +121,12 @@ marquee{
 
 footer{
    height:14vh;
-   width:100vw;
+   width:100%;
    background:black;
    color:white;
    align-items: center;
    justify-self: start;
+   justify-content:center;
 }
 .foot1{
     display: inline-block;
