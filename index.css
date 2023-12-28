@@ -19,7 +19,7 @@ header{
    padding-left:27%;
 }
 nav{
-    height:60px;
+    height:11vh;
     width:100%;
     background:rgb(67, 67, 67);
     color:white;
@@ -120,7 +120,7 @@ marquee{
 
 
 footer{
-   height:10vh;
+   height:14vh;
    width:100%;
    background:black;
    color:white;
