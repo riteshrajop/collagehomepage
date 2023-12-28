@@ -4,7 +4,7 @@
     font-family:Aptos Display;
 }
 header{
-  
+
     
 }
 .logo{
@@ -19,8 +19,8 @@ header{
    padding-left:27%;
 }
 nav{
-    height:10vh;
-    width:100vw;
+    height:60px;
+    width:100%;
     background:rgb(67, 67, 67);
     color:white;
     margin:auto;
@@ -70,8 +70,8 @@ nav a:active{
     padding-top: 0px;
     width: 70%;
     height:100vh;
-    
-    position:relative;
+   
+
     display:inline-block;
 }
 
@@ -81,9 +81,7 @@ nav a:active{
 .homepagenotice{
     width:30%;
     height:100vh;
-    text-align:center;
-   
-    
+    text-align:center;    
     display:inline-block;
     flex-wrap:wrap;
 }
@@ -126,7 +124,6 @@ footer{
    color:white;
    align-items: center;
    justify-self: start;
-   justify-content:center;
 }
 .foot1{
     display: inline-block;
