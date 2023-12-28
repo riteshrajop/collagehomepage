@@ -20,7 +20,7 @@ header{
 }
 nav{
     height:11vh;
-    width:100%;
+    width:100vw;
     background:rgb(67, 67, 67);
     color:white;
     margin:auto;
@@ -121,7 +121,7 @@ marquee{
 
 footer{
    height:14vh;
-   width:100%;
+   width:100vw;
    background:black;
    color:white;
    align-items: center;
