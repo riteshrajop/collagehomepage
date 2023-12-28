@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Aptos Display;
+}
+header{
+
+    
+}
+.logo{
+    padding-left:15%;
+}
+.text{
+   padding-left:20px;
+   margin-left:20px;
+   align-items: center;
+   justify-content:center;
+   padding-top: 15px;
+   padding-left:27%;
+}
+nav{
+    height:60px;
+    width:100%;
+    background:rgb(67, 67, 67);
+    color:white;
+    margin:auto;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    justify-content: space-evenly;
+    position:sticky;
+    top:0px;
+    left:0px;
+    flex-wrap:wrap;
+    
+}
+a{
+    color:white;
+    cursor:pointer;
+    text-decoration:none;
+    text-transform:uppercase;
+
+}
+.Select_Nav{
+    background:none;
+    border:none;
+    font-size: 2vh;
+    color:white;
+}
+select{
+    color:black;
+    background-color:rgb(67, 67, 67); ;
+}
+nav ::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:black;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+/* image slider on home page */
+.box1{
+    height:70vh;
+    display:flex;
+    align-content:column; 
+}
+.homepageslider{
+    padding-top: 0px;
+    width: 70%;
+    height:100vh;
+    
+    display:inline-block;
+    
+}
+.homepagenotice{
+    width:30%;
+    height:100vh;
+    text-align:center;
+    
+    display:inline-block;
+    flex-wrap:wrap;
+}
+.notice_section{
+    font-color:black;
+}
+.not{
+    marquee-direction:up;
+}
+
+
+marquee{
+    direction:left;
+    font-size:25px;
+    margin-top:5%;
+    align-items:center;
+    justify-content:center;
+    
+    
+}
+
+
+/* second Section on the website */
+
+.Sumit{
+    width:100%;
+    height:30vh;
+    background:rgb(227, 227, 227);
+    display:inline-block;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+
+footer{
+   height:10vh;
+   width:100%;
+   background:black;
+   color:white;
+   align-items: center;
+   justify-self: start;
+}
+.foot1{
+    display: inline-block;
+    padding-top: 1.5%;
+    padding-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.foot2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    padding-top:1.5%;
+}
