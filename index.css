@@ -19,7 +19,7 @@ header{
    padding-left:27%;
 }
 nav{
-    height:8vh;
+    height:10vh;
     width:100vw;
     background:rgb(67, 67, 67);
     color:white;
@@ -70,6 +70,8 @@ nav a:active{
     padding-top: 0px;
     width: 70%;
     height:100vh;
+    background-image:url("gpimgp1.jpeg");
+    background-repeat:no-repeat;
    background-size:cover ;
     position:relative;
     display:inline-block;
